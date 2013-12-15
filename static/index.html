@@ -4,7 +4,7 @@
   <script type="text/javascript" src="http://platform.linkedin.com/in.js">
     api_key: 75lyufb6o0qnxf
     onLoad: onLinkedInLoad
-    authorize: true
+    
   </script>
 
   <script type="text/javascript">
@@ -17,7 +17,7 @@ function onLinkedInAuth() {
      // After they've signed-in, print a form to enable keyword searching
      var div = document.getElementById("peopleSearchForm");
  
-     div.innerHTML = '<h2>Find People on LinkedIn</h2>';
+     div.innerHTML = '<h2>Your Connections are</h2>';
      div.innerHTML += '<form action="javascript:PeopleSearch();">' +
                       '<input id="keywords" size="30" value="JavaScript Ninja" type="text">' +
                       '<input type="submit" value="Search!" /></form>';
